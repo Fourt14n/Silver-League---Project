@@ -2,8 +2,59 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    color: white;
 }
 
 .hamburguerMenu{
     display: none;
+}
+
+header{
+    display: flex;
+    background-color: #2C2A2B;
+}
+
+.menuListContainer{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerBox{
+    background-size: cover;
+    width: 100vw;
+    height: 80vh;
+    background-image: url(./media/background.png);
+}
+
+@media screen and (max-width:426px) {
+    .containerBox{
+        background-position: 22%;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .logoContainer{
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo{
+        width: 30%;
+    }
+
+    header{
+        flex-direction: column;
+    }
+
+    .menuListContainer{
+        gap: 5%;
+        padding: 2% 0px;
+    }
+
+    .menuListItems{
+        padding: 2%;
+    }
+    
 }
