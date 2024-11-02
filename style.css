@@ -5,8 +5,12 @@
     margin: 0;
     box-sizing: border-box;
     color: white;
+    transition: all 0.5s ease;
 }
 
+.btnCursor{
+    cursor: pointer;
+}
 .holeBox{
     height: 100vh;
     width: 100vw;
@@ -66,6 +70,15 @@ header{
 
 .logo{
     max-width: 200px;
+}
+
+.buyTicketBtn{
+    border: none;
+    background-color: black;
+    
+}
+.buyTicketBtn:hover{
+    background-color: rgb(35, 35, 35);
 }
 
 @media screen and (min-width:320px) and (max-width:480px) {
@@ -216,10 +229,21 @@ header{
     }
     .buyTicketBtnContainer{
         display: flex;
-    }   
+        width: 30%;
+        margin: 5%;
+    }       
+    .buyTicketBtnContainer a{
+        width: 100%;
+    }
+    .buyTicketBtn{
+        width: 100%;
+        border-radius: 50px;
+        padding: 7% 9%;
+        font-size: 85%;
+    }
 }
 
-@media screen and (min-width:1024px){
+@media screen and (min-width:1024px) and (max-width:1300px){
     .containerBox{
 
         height: 100%;
@@ -263,5 +287,73 @@ header{
     }
     .buyTicketBtnContainer{
         display: flex;
-    }   
+        width: 30%;
+        margin: 5%;
+    }       
+    .buyTicketBtnContainer a{
+        width: 100%;
+    }
+    .buyTicketBtn{
+        width: 100%;
+        border-radius: 70px;
+        padding: 7% 9%;
+        font-size: 98%;
+    }
+}
+
+@media screen and (min-width:1301px){
+    .containerBox{
+        height: 100%;
+    }
+
+    .logoContainer{
+        width: 20%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo{
+        width: 30vw;
+    }
+    .menuContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+
+    .menuListContainer{
+        gap: 15px;
+        padding: 1.5% 0px;
+        font-size: 26px;
+    }
+
+    .menuListItems{
+        padding: 2%;
+    }
+    .containerBox{
+        justify-content: end;
+        align-items: end;
+    }
+    .presentText{
+        background-color: #FC3626;
+        width: 100%;
+        text-align: center;
+        padding: 20px 0px;
+        font-size: 30px;
+    }
+    .buyTicketBtnContainer{
+        display: flex;
+        width: 30%;
+        margin: 2.5%;
+    }       
+    .buyTicketBtnContainer a{
+        width: 100%;
+    }
+    .buyTicketBtn{
+        width: 100%;
+        border-radius: 90px;
+        padding: 20px 25px;
+        font-size: 24px;
+    }
 }
