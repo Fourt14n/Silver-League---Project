@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.cabecalho{
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #2C2A2B;
+}
+.logoImg{
+    position: relative;
+    max-width: 200px;
+    right: 54px;
+}
+.menuContainer{
+    position: relative;
+    left: 19px;
+}
+.menuLista{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+
+}
+li{
+    font-size: 26px;
+}
+
+.menuListItems{
+   margin: 17.9px;
+}
+
+.menuListItems:hover{
+    background-color: #FC3626;
+    border-radius: 7%;
+
+}
+
+.card{
+    background-color: #FC3626;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.cardText {
+    padding: 15px;
+    font-family: "Luckiest Guy", cursive;
+    font-style:normal;
+    font-size: 27.5px;
+  }
+.imagem{
+width: 100%;
+height: 100%;
+}
+.rodape{
+    background-color: #FC3626;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+.buyTicketBtn{
+    border: none;
+    background-color: black;
+    padding: 20px;
+    border-radius: 7%;
+
+}
+.buyTicketBtn:hover{
+    background-color: rgb(35, 35, 35);
+}
+
+.cor{
+background-color: black;
+}
+
+
+
+
+@media screen and (min-width:320px) and (max-width:480px) {
+   
+    
+
+
+}
