@@ -361,3 +361,13 @@ header{
         font-size: 24px;
     }
 }
+
+/* Estilizando a tela de parceiros */
+.parceirosContainerBox{
+    background-color: #2C2A2B;
+    background-image: none; 
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    
+}
