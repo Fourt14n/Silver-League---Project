@@ -23,7 +23,7 @@ a{
     "header"
     "presentText"
     "main";
-    grid-template-rows: 3fr 1fr 9fr ;
+    grid-template-rows: 2fr 0.5fr 9fr ;
     grid-template-columns: 100vw;
 }
 
@@ -32,11 +32,6 @@ a{
     font-style: normal;
   }
   
-
-.hamburguerMenu{
-    display: none;
-}
-
 header{
     height: 100%;
     grid-area: header;
@@ -72,10 +67,6 @@ header{
     
 }
 
-.logo{
-    max-width: 200px;
-}
-
 .buyTicketBtn{
     border: none;
     background-color: black;
@@ -97,6 +88,7 @@ header{
     }
 
     .logo{
+        max-width: 60px;
         width: 40vw;
     }
 
@@ -117,8 +109,8 @@ header{
         background-color: #FC3626;
         width: 100%;
         text-align: center;
-        padding: 5% 0px;
-        font-size: 4.5vw;
+        padding: 3% 0px;
+        font-size: 4vw;
     }
     .buyTicketBtnContainer{
         display: none;
@@ -137,7 +129,7 @@ header{
     }
 
     .logo{
-        width: 30vw;
+        max-height: 80px;
     }
 
     header{
@@ -157,8 +149,8 @@ header{
         background-color: #FC3626;
         width: 100%;
         text-align: center;
-        padding: 2% 0px;
-        font-size: 4.5vw;
+        padding: 1.5% 0px;
+        font-size: 3.2vw;
     }
     .buyTicketBtnContainer{
         display: none;
@@ -167,18 +159,18 @@ header{
 
 @media screen and (min-width:581px) and (max-width:1024px) {
     .containerBox{
-        background-position: 22%;
         height: 100%;
     }
 
     .logoContainer{
-        width: 30%;
+        width: 40%;
         display: flex;
         justify-content: center;
+        padding: 10px;
     }
 
     .logo{
-        width: 30vw;
+        max-width: 90px;
     }
     .menuContainer{
         display: flex;
@@ -200,8 +192,8 @@ header{
         background-color: #FC3626;
         width: 100%;
         text-align: center;
-        padding: 3% 0px;
-        font-size: 4vw;
+        padding: 2% 0px;
+        font-size: 3vw;
     }
     .buyTicketBtnContainer{
         display: none;
@@ -224,8 +216,8 @@ header{
         background-color: #FC3626;
         width: 100%;
         text-align: center;
-        padding: 2.5% 0px;
-        font-size: 30px;
+        padding: 2% 0px;
+        font-size: 20px;
     }
     .containerBox{
         justify-content: end;
@@ -234,7 +226,7 @@ header{
     .buyTicketBtnContainer{
         display: flex;
         width: 30%;
-        margin: 5%;
+        margin: 2%;
     }       
     .buyTicketBtnContainer a{
         width: 100%;
@@ -249,7 +241,6 @@ header{
 
 @media screen and (min-width:1024px) and (max-width:1300px){
     .containerBox{
-
         height: 100%;
     }
 
@@ -257,10 +248,11 @@ header{
         width: 30%;
         display: flex;
         justify-content: center;
+        padding: 10px;
     }
 
     .logo{
-        width: 30vw;
+        max-width: 100px ;
     }
     .menuContainer{
         display: flex;
@@ -286,13 +278,13 @@ header{
         background-color: #FC3626;
         width: 100%;
         text-align: center;
-        padding: 20px 0px;
-        font-size: 30px;
+        padding: 15px 0px;
+        font-size: 25px;
     }
     .buyTicketBtnContainer{
         display: flex;
         width: 30%;
-        margin: 5%;
+        margin: 1.5%;
     }       
     .buyTicketBtnContainer a{
         width: 100%;
@@ -349,7 +341,7 @@ header{
     .buyTicketBtnContainer{
         display: flex;
         width: 30%;
-        margin: 2.5%;
+        margin: 1.5%;
     }       
     .buyTicketBtnContainer a{
         width: 100%;
