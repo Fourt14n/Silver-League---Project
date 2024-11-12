@@ -8,89 +8,513 @@
     transition: all 0.5s ease;
 }
 
-.cabecalho{
-    height: 100%;
+.btnCursor {
+    cursor: pointer;
+}
+
+.holeBox {
+    height: 110vh;
+    width: 100vw;
+    display: grid;
+    grid-template-areas:
+        "header"
+        "presentText"
+        "main"
+        "rodape";
+    grid-template-rows: 3fr 1fr 9fr;
+    grid-template-columns: 100vw;
+}
+
+.luckiest-guy-regular {
+    font-family: "Luckiest Guy", cursive;
+    font-style: normal;
+}
+
+header {
+    grid-area: header;
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
     background-color: #2C2A2B;
 }
-.logoImg{
-    position: relative;
-    max-width: 200px;
-    right: 54px;
-}
-.menuContainer{
-    position: relative;
-    left: 19px;
-}
-.menuLista{
+
+.menuListContainer {
     display: flex;
     list-style-type: none;
     justify-content: center;
     align-items: center;
-
-}
-li{
-    font-size: 26px;
 }
 
-.menuListItems{
-   margin: 17.9px;
+.containerBox {
+    background-size: cover;
+    background-image: url(./images/couterStrike.jpg);
+    grid-area: main;
 }
 
-.menuListItems:hover{
+.menuListItems:hover {
     background-color: #FC3626;
     border-radius: 7%;
 
 }
 
-.card{
-    background-color: #FC3626;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.presentText {
+    grid-area: presentText;
 
 }
-.cardText {
-    padding: 15px;
-    font-family: "Luckiest Guy", cursive;
-    font-style:normal;
-    font-size: 27.5px;
-  }
-.imagem{
-width: 100%;
-height: 100%;
+
+.logo {
+    max-width: 200px;
 }
-.rodape{
+
+.rodape {
+    grid-area: rodape;
+    width: 100vw;
     background-color: #FC3626;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.btnCompra {
     padding: 20px;
-
+    margin: 20px;
+    border-radius: 20px;
 }
-.buyTicketBtn{
-    border: none;
+
+.btnCompra a {
     background-color: black;
     padding: 20px;
-    border-radius: 7%;
-
+    margin: 20px;
+    border-radius: 20px;
+    text-decoration: none;
 }
-.buyTicketBtn:hover{
+
+a:hover {
     background-color: rgb(35, 35, 35);
-}
+    border: none;
 
-.cor{
-background-color: black;
-}
-
-
+} 
 
 
 @media screen and (min-width:320px) and (max-width:480px) {
-   
-    
+    .containerBox {
+        background-position: 27%;
+        height: 100%;
+    }
 
+    .logoContainer {
+        display: flex;
+        justify-content: center;
+    }
 
+    .logo {
+        width: 40vw;
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    .menuListContainer {
+        gap: 2%;
+        padding: 2% 0px;
+        font-size: 70%;
+    }
+
+    .menuListItems {
+        padding: 2%;
+    }
+
+    .presentText {
+        background-color: #FC3626;
+        width: 100%;
+        text-align: center;
+        padding: 5% 0px;
+        font-size: 4.5vw;
+    }
+
+    .rodape {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btnCompra {
+        background-color: black;
+        width: 150px;
+        height: 40px;
+        padding: 9px 5px;
+        margin: 20px;
+        border-radius: 10px;
+
+    }
+
+    .btnCompra a {
+        text-decoration: none;
+        font-size: smaller;
+
+    }
+
+    a:hover {
+        background-color: rgb(35, 35, 35);
+        border: none;
+
+    }
+
+}
+
+@media screen and (min-width:481px) and (max-width:580px) {
+    .containerBox {
+        background-position: 27%;
+        height: 100%;
+    }
+
+    .logoContainer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo {
+        width: 40vw;
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+    .menuListContainer {
+        gap: 2%;
+        padding: 2% 0px;
+        font-size: 70%;
+    }
+
+    .menuListItems {
+        padding: 2%;
+    }
+
+    .presentText {
+        background-color: #FC3626;
+        width: 100%;
+        text-align: center;
+        padding: 5% 0px;
+        font-size: 4.5vw;
+    }
+
+    .rodape {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btnCompra {
+        background-color: black;
+        width: 150px;
+        height: 40px;
+        padding: 9px 5px;
+        margin: 20px;
+        border-radius: 10px;
+
+    }
+
+    .btnCompra a {
+        text-decoration: none;
+        font-size: smaller;
+
+    }
+
+    a:hover {
+        background-color: rgb(35, 35, 35);
+        border: none;
+
+    }
+}
+
+@media screen and (min-width:581px) and (max-width:1024px) {
+    .containerBox {
+        background-position: 22%;
+        height: 100%;
+    }
+
+    .logoContainer {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo {
+        width: 30vw;
+    }
+
+    .menuContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+    }
+
+    .menuListContainer {
+        gap: 2%;
+        padding: 2% 0px;
+        font-size: 2.3vw;
+    }
+
+    .menuListItems {
+        padding: 2%;
+    }
+
+    .presentText {
+        background-color: #FC3626;
+        width: 100%;
+        text-align: center;
+        padding: 3% 0px;
+        font-size: 4vw;
+    }
+
+    .rodape {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btnCompra {
+        background-color: black;
+        width: 150px;
+        height: 40px;
+        padding: 9px 5px;
+        margin: 20px;
+        border-radius: 10px;
+
+    }
+
+    .btnCompra a {
+        text-decoration: none;
+        font-size: smaller;
+
+    }
+
+    a:hover {
+        background-color: rgb(35, 35, 35);
+        border: none;
+
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .logo {
+        width: 25vw;
+    }
+
+    .containerBox {
+        height: 100%;
+    }
+
+    .menuListContainer {
+        gap: 2%;
+        padding: 1.5% 0px;
+        font-size: 2.4vw;
+    }
+
+    .presentText {
+        background-color: #FC3626;
+        width: 100%;
+        text-align: center;
+        padding: 2.5% 0px;
+        font-size: 30px;
+    }
+
+    .containerBox {
+        justify-content: end;
+        align-items: end;
+    }
+
+    .buyTicketBtnContainer {
+        display: flex;
+        width: 30%;
+        margin: 5%;
+    }
+
+    .buyTicketBtnContainer a {
+        width: 100%;
+    }
+
+    .rodape {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btnCompra {
+        background-color: black;
+        width: 150px;
+        height: 40px;
+        padding: 9px 5px;
+        margin: 20px;
+        border-radius: 10px;
+
+    }
+
+    .btnCompra a {
+        text-decoration: none;
+        font-size: smaller;
+
+    }
+
+    a:hover {
+        background-color: rgb(35, 35, 35);
+        border: none;
+
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1300px) {
+    .containerBox {
+
+        height: 100%;
+    }
+
+    .logoContainer {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo {
+        width: 30vw;
+    }
+
+    .menuContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+    }
+
+    .menuListContainer {
+        gap: 15px;
+        padding: 1.5% 0px;
+        font-size: 26px;
+    }
+
+    .menuListItems {
+        padding: 2%;
+    }
+
+    .containerBox {
+        justify-content: end;
+        align-items: end;
+    }
+
+    .presentText {
+        background-color: #FC3626;
+        width: 100%;
+        text-align: center;
+        padding: 20px 0px;
+        font-size: 30px;
+    }
+
+    .rodape {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btnCompra {
+        background-color: black;
+        width: 150px;
+        height: 40px;
+        padding: 9px 5px;
+        margin: 20px;
+        border-radius: 10px;
+
+    }
+
+    .btnCompra a {
+        text-decoration: none;
+        font-size: smaller;
+
+    }
+
+    a:hover {
+        background-color: rgb(35, 35, 35);
+        border: none;
+
+    }
+}
+
+@media screen and (min-width:1301px) {
+    .containerBox {
+        height: 100%;
+    }
+
+    .logoContainer {
+        width: 20%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo {
+        width: 30vw;
+    }
+
+    .menuContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+
+    .menuListContainer {
+        gap: 15px;
+        padding: 1.5% 0px;
+        font-size: 26px;
+    }
+
+    .menuListItems {
+        padding: 2%;
+    }
+
+    .containerBox {
+        justify-content: end;
+        align-items: end;
+    }
+
+    .presentText {
+        background-color: #FC3626;
+        width: 100%;
+        text-align: center;
+        padding: 20px 0px;
+        font-size: 30px;
+    }
+
+    .rodape {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btnCompra {
+        background-color: black;
+        width: 150px;
+        height: 40px;
+        padding: 9px 5px;
+        margin: 20px;
+        border-radius: 10px;
+
+    }
+
+    .btnCompra a {
+        text-decoration: none;
+        font-size: smaller;
+
+    }
+
+    a:hover {
+        background-color: rgb(35, 35, 35);
+        border: none;
+
+    }
 }
