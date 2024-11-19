@@ -239,7 +239,7 @@ header{
     }
 }
 
-@media screen and (min-width:1024px) and (max-width:1300px){
+@media screen and (min-width:1025px) and (max-width:1300px){
     .containerBox{
         height: 100%;
     }
@@ -359,7 +359,11 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: nowrap;
+    
 }
+
+
 
 .mogra-regular {
     font-family: "Mogra", system-ui;
@@ -373,9 +377,10 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 90%;
+    width: 80%;
     height: 100%;
     flex-wrap: wrap;
+
 }
 
 .patrocinadorCard{
@@ -383,20 +388,63 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+.patrocinadores{
+    width: 144px;
+    height: 69px;
+}
+
+@media screen and (min-width:320px) and (max-width:430px) {
     .parceirosContainerBox{
-        height: 145vh;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .patrocinadorCard{
+        padding: 15px;
     }
 
     .patrocinadoresContainer{
-        flex-direction: column;
-        flex-wrap: nowrap;
-        gap: 5%;
+        padding: 5% 20%;
     }
 }
-@media screen and (min-width:426px) and (max-width:768px) {
+
+
+@media screen and (min-width:431px) and (max-width:768px) {
+    .patrocinadorCard{
+        padding: 15px;
+    }
     
 }
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .patrocinadorCard{
+        padding: 15px;
+    }
+    .patrocinadores{
+        width: 164px;
+        height: 89px;
+    }
+    .patrocinadoresContainer{
+        width: 75%;
+    }
+}
+@media screen and (min-width:1025px) and (max-width:1300px) {
+    .patrocinadorCard{
+        padding: 15px;
+    }
+    .patrocinadores{
+        width: 164px;
+        height: 89px;
+    }
+    .patrocinadoresContainer{
+        width: 60%;
+    }
+}
+@media screen and (min-width:1301px){
+    .patrocinadorCard{
+        padding: 15px;
+    }
+}
+
