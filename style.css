@@ -353,3 +353,77 @@ header{
         font-size: 24px;
     }
 }
+
+/* ------------------------------------------------------------------------------------------ */
+/* Começando meu CSS*/
+
+.backTicket{
+    
+    grid-area: main;
+    background-color: #2C2A2B;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.borderTicket{
+    display: flex;
+    justify-content: center;    
+    flex-wrap: wrap;
+    padding: 20px;
+    height: 100%;
+    width: 90%;
+    
+}
+
+.ticket1{
+    width: 100%;
+    
+}
+
+.date{
+
+    background-color: #FC3626;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: black;
+    padding-left: 10px;
+    font-family: "Luckiest Guy", cursive;
+    font-style: normal;
+}
+
+.cardText{
+    display: flex;
+    align-items: center;
+    padding:  20px 10px;
+    background-color: white;
+    
+}
+
+.hour{
+    color: black;
+    font-family: "Luckiest Guy", cursive;
+    font-style: normal;
+    text-align: center;
+    
+}
+
+.info{
+    color: black;
+    font-family: "Luckiest Guy", cursive;
+    font-style: normal;
+
+}
+
+.a{
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    
+}
+
+.b{
+    padding-left: 15%;
+    width: 100%;
+    border-left: solid 2px black;
+}
