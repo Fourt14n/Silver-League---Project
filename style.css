@@ -447,4 +447,17 @@ header{
         padding: 15px;
     }
 }
+@media screen and (min-width: 1300px){
+    .patrocinadoresContainer{
+        width: 40%;
+    }
+
+    .patrocinadores{
+        width: 200px;
+        height: 145px;
+    }
+    .mogra-regular{
+        font-size: 25px;
+    }
+}
 
