@@ -8,6 +8,10 @@
     transition: all 0.5s ease;
 }
 
+body{
+    /* outline: 1px solid purple;  */
+
+}
 
 
 .btnCursor {
@@ -51,8 +55,6 @@ header {
     justify-content: space-between;
     align-items: end;
     background-size: cover;
-    width: 100vw;
-    background-image: url(./media/background.png);
     grid-area: main;
 }
 
@@ -77,18 +79,17 @@ header {
 
 @media screen and (min-width:320px) and (max-width:480px) {
     .containerBox {
-        background-position: 22%;
+        background-position: 27%;
         height: 100%;
     }
 
     .logoContainer {
-        width: 30%;
         display: flex;
         justify-content: center;
     }
 
     .logo {
-        width: 30vw;
+        width: 40vw;
     }
 
     .menuContainer {
@@ -97,11 +98,13 @@ header {
         align-items: center;
         width: 70%;
     }
-
-    .menuListContainer {
+    header{
+        flex-direction: column;
+    }
+    .menuListContainer{
         gap: 2%;
         padding: 2% 0px;
-        font-size: 2.3vw;
+        font-size: 70%;
     }
 
     .menuListItems {
@@ -112,8 +115,8 @@ header {
         background-color: #FC3626;
         width: 100%;
         text-align: center;
-        padding: 3% 0px;
-        font-size: 4vw;
+        padding: 5% 0px;
+        font-size: 4.5vw;
     }
 
     main {
@@ -134,7 +137,7 @@ header {
 
     .cardText p {
         font-size: large;
-        padding: 5px 10px;
+        padding: 5px 0 ;
     }
     .cardText h1 {
         margin: 10px 0;
@@ -143,7 +146,6 @@ header {
     .botao {
         color: black;
         padding: 10px;
-        margin: 10px 0;
         font-family: "Luckiest Guy", cursive;
 
     }
@@ -156,7 +158,6 @@ header {
     }
 
     .logoContainer {
-        width: 30%;
         display: flex;
         justify-content: center;
     }
@@ -171,23 +172,25 @@ header {
         align-items: center;
         width: 70%;
     }
-
-    .menuListContainer {
+    header{
+        flex-direction: column;
+    }
+    .menuListContainer{
         gap: 2%;
         padding: 2% 0px;
-        font-size: 2.3vw;
+        font-size: 3vw;
     }
 
     .menuListItems {
         padding: 2%;
     }
 
-    .presentText {
+    .presentText{
         background-color: #FC3626;
         width: 100%;
         text-align: center;
-        padding: 3% 0px;
-        font-size: 4vw;
+        padding: 2% 0px;
+        font-size: 4.5vw;
     }
 
     main {
@@ -306,7 +309,6 @@ header {
     }
 
     .textPassport p {
-        padding: 10px 0;
         text-align: center;
     }
 
@@ -340,21 +342,7 @@ header {
         font-size: 30px;
     }
 
-    .containerBox {
-        justify-content: end;
-        align-items: end;
-    }
-
-    .buyTicketBtnContainer {
-        display: flex;
-        width: 30%;
-        margin: 5%;
-    }
-
-    .buyTicketBtnContainer a {
-        width: 100%;
-    }
-
+  
     main {
         background-color: #2C2A2B;
         display: flex;
@@ -381,7 +369,7 @@ header {
     .botao {
         color: black;
         padding: 10px;
-        margin: 10px 0;
+        margin: 10% 0;
         font-family: "Luckiest Guy", cursive;
 
     }
@@ -393,19 +381,21 @@ header {
     }
 
     .cardText p {
+        padding: 1% 0;
         text-align: center;
-        font-size: larger;
+        font-size: large;
 
     }
 
     .textPassport p {
-        padding: 10px 0;
+        padding: 8% 0;
         text-align: center;
     }
 
     .cardText h1 {
         text-align: center;
         color: #FC3626;
+        margin: 40% 0;
     }
 }
 
@@ -505,7 +495,51 @@ header {
 
     .cardText h1 {
         text-align: center;
-        margin: 100px 0;
+        margin: 45% 0;
         color: #FC3626;
+    }
+}
+
+
+@media screen and (min-width:1301px){
+    .containerBox{
+        height: 100%;
+    }
+
+    .logoContainer{
+        width: 20%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo{
+        width: 30vw;
+    }
+    .menuContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+
+    .menuListContainer{
+        gap: 15px;
+        padding: 1.5% 0px;
+        font-size: 26px;
+    }
+
+    .menuListItems{
+        padding: 2%;
+    }
+    .containerBox{
+        justify-content: end;
+        align-items: end;
+    }
+    .presentText{
+        background-color: #FC3626;
+        width: 100%;
+        text-align: center;
+        padding: 20px 0px;
+        font-size: 30px;
     }
 }
