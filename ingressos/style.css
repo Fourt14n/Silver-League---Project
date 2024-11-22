@@ -8,19 +8,20 @@
     transition: all 0.5s ease;
 }
 
+
+
 .btnCursor {
     cursor: pointer;
 }
 
 .holeBox {
-    height: 110vh;
+    height: 100vh;
     width: 100vw;
     display: grid;
     grid-template-areas:
         "header"
         "presentText"
-        "main"
-        "rodape";
+        "main";
     grid-template-rows: 3fr 1fr 9fr;
     grid-template-columns: 100vw;
 }
@@ -31,6 +32,7 @@
 }
 
 header {
+    height: 100%;
     grid-area: header;
     display: flex;
     background-color: #2C2A2B;
@@ -44,8 +46,13 @@ header {
 }
 
 .containerBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
     background-size: cover;
-    background-image: url(./images/couterStrike.jpg);
+    width: 100vw;
+    background-image: url(./media/background.png);
     grid-area: main;
 }
 
@@ -64,59 +71,37 @@ header {
     max-width: 200px;
 }
 
-.rodape {
-    grid-area: rodape;
-    width: 100vw;
-    background-color: #FC3626;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.btnCompra {
-    padding: 20px;
-    margin: 20px;
-    border-radius: 20px;
-}
 
-.btnCompra a {
-    background-color: black;
-    padding: 20px;
-    margin: 20px;
-    border-radius: 20px;
-    text-decoration: none;
-}
-
-a:hover {
-    background-color: rgb(35, 35, 35);
-    border: none;
-
-} 
 
 
 @media screen and (min-width:320px) and (max-width:480px) {
     .containerBox {
-        background-position: 27%;
+        background-position: 22%;
         height: 100%;
     }
 
     .logoContainer {
+        width: 30%;
         display: flex;
         justify-content: center;
     }
 
     .logo {
-        width: 40vw;
+        width: 30vw;
     }
 
-    header {
-        flex-direction: column;
+    .menuContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
     }
 
     .menuListContainer {
         gap: 2%;
         padding: 2% 0px;
-        font-size: 70%;
+        font-size: 2.3vw;
     }
 
     .menuListItems {
@@ -127,64 +112,70 @@ a:hover {
         background-color: #FC3626;
         width: 100%;
         text-align: center;
-        padding: 5% 0px;
-        font-size: 4.5vw;
+        padding: 3% 0px;
+        font-size: 4vw;
     }
 
-    .rodape {
-        width: 100vw;
+    main {
+        background-color: #2C2A2B;
         display: flex;
-        justify-content: center;
         align-items: center;
+        font-family: "Luckiest Guy", cursive;
+        flex-wrap: wrap;
     }
 
-    .btnCompra {
+    .card {
+        width: 1000px;
+        margin: 15px;
         background-color: black;
-        width: 150px;
-        height: 40px;
-        padding: 9px 5px;
-        margin: 20px;
-        border-radius: 10px;
+        text-align: center;
 
     }
 
-    .btnCompra a {
-        text-decoration: none;
-        font-size: smaller;
+    .cardText p {
+        font-size: large;
+        padding: 5px 10px;
+    }
+    .cardText h1 {
+        margin: 10px 0;
+        color: #FC3626;
+    }
+    .botao {
+        color: black;
+        padding: 10px;
+        margin: 10px 0;
+        font-family: "Luckiest Guy", cursive;
 
     }
-
-    a:hover {
-        background-color: rgb(35, 35, 35);
-        border: none;
-
-    }
-
 }
 
 @media screen and (min-width:481px) and (max-width:580px) {
     .containerBox {
-        background-position: 27%;
+        background-position: 22%;
         height: 100%;
     }
 
     .logoContainer {
+        width: 30%;
         display: flex;
         justify-content: center;
     }
 
     .logo {
-        width: 40vw;
+        width: 30vw;
     }
 
-    header {
-        flex-direction: column;
+    .menuContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
     }
 
     .menuListContainer {
         gap: 2%;
         padding: 2% 0px;
-        font-size: 70%;
+        font-size: 2.3vw;
     }
 
     .menuListItems {
@@ -195,38 +186,42 @@ a:hover {
         background-color: #FC3626;
         width: 100%;
         text-align: center;
-        padding: 5% 0px;
-        font-size: 4.5vw;
+        padding: 3% 0px;
+        font-size: 4vw;
     }
 
-    .rodape {
-        width: 100vw;
+    main {
+        background-color: #2C2A2B;
         display: flex;
-        justify-content: center;
         align-items: center;
+        font-family: "Luckiest Guy", cursive;
+        flex-wrap: wrap;
     }
 
-    .btnCompra {
+    .card {
+        width: 1000px;
+        margin: 15px;
         background-color: black;
-        width: 150px;
-        height: 40px;
-        padding: 9px 5px;
-        margin: 20px;
-        border-radius: 10px;
+        text-align: center;
 
     }
 
-    .btnCompra a {
-        text-decoration: none;
-        font-size: smaller;
+    .cardText p {
+        font-size: x-large;
+        padding: 5px 10px;
+    }
+    .cardText h1 {
+        margin: 10px 0;
+        color: #FC3626;
+    }
+    .botao {
+        color: black;
+        padding: 10px;
+        margin: 10px 0;
+        font-family: "Luckiest Guy", cursive;
 
     }
 
-    a:hover {
-        background-color: rgb(35, 35, 35);
-        border: none;
-
-    }
 }
 
 @media screen and (min-width:581px) and (max-width:1024px) {
@@ -270,33 +265,55 @@ a:hover {
         font-size: 4vw;
     }
 
-    .rodape {
-        width: 100vw;
+    main {
+        background-color: #2C2A2B;
         display: flex;
         justify-content: center;
         align-items: center;
+        font-family: "Luckiest Guy", cursive;
+
     }
 
-    .btnCompra {
+    .card {
         background-color: black;
-        width: 150px;
-        height: 40px;
-        padding: 9px 5px;
-        margin: 20px;
-        border-radius: 10px;
+        width: 200px;
+        margin: 30px 20px;
+    }
+
+    .card a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
     }
 
-    .btnCompra a {
-        text-decoration: none;
-        font-size: smaller;
+    .botao {
+        color: black;
+        padding: 10px;
+        margin: 10px 0;
+    }
+
+    .laranja {
+        background-color: #FC3626;
+        padding: 15px;
+        border-radius: 5px;
+    }
+
+    .cardText p {
+        text-align: center;
+        font-size: larger;
 
     }
 
-    a:hover {
-        background-color: rgb(35, 35, 35);
-        border: none;
+    .textPassport p {
+        padding: 10px 0;
+        text-align: center;
+    }
 
+    .cardText h1 {
+        text-align: center;
+        margin: 100px 0;
+        color: #FC3626;
     }
 }
 
@@ -338,33 +355,57 @@ a:hover {
         width: 100%;
     }
 
-    .rodape {
-        width: 100vw;
+    main {
+        background-color: #2C2A2B;
         display: flex;
         justify-content: center;
         align-items: center;
+        font-family: "Luckiest Guy", cursive;
+
     }
 
-    .btnCompra {
+    .card {
         background-color: black;
-        width: 150px;
-        height: 40px;
-        padding: 9px 5px;
-        margin: 20px;
-        border-radius: 10px;
+        height: 350px;
+        width: 200px;
+        margin: 30px 50px;
+    }
+
+    .card a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
     }
 
-    .btnCompra a {
-        text-decoration: none;
-        font-size: smaller;
+    .botao {
+        color: black;
+        padding: 10px;
+        margin: 10px 0;
+        font-family: "Luckiest Guy", cursive;
 
     }
 
-    a:hover {
-        background-color: rgb(35, 35, 35);
-        border: none;
+    .laranja {
+        background-color: #FC3626;
+        padding: 15px;
+        border-radius: 5px;
+    }
 
+    .cardText p {
+        text-align: center;
+        font-size: larger;
+
+    }
+
+    .textPassport p {
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .cardText h1 {
+        text-align: center;
+        color: #FC3626;
     }
 }
 
@@ -414,107 +455,57 @@ a:hover {
         font-size: 30px;
     }
 
-    .rodape {
-        width: 100vw;
+    main {
+        background-color: #2C2A2B;
         display: flex;
         justify-content: center;
         align-items: center;
+        font-family: "Luckiest Guy", cursive;
+
     }
 
-    .btnCompra {
+    .card {
         background-color: black;
-        width: 150px;
-        height: 40px;
-        padding: 9px 5px;
-        margin: 20px;
-        border-radius: 10px;
-
+        height: 370px;
+        width: 200px;
+        margin: 30px 50px;
     }
 
-    .btnCompra a {
-        text-decoration: none;
-        font-size: smaller;
-
-    }
-
-    a:hover {
-        background-color: rgb(35, 35, 35);
-        border: none;
-
-    }
-}
-
-@media screen and (min-width:1301px) {
-    .containerBox {
-        height: 100%;
-    }
-
-    .logoContainer {
-        width: 20%;
-        display: flex;
-        justify-content: center;
-    }
-
-    .logo {
-        width: 30vw;
-    }
-
-    .menuContainer {
+    .card a {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 80%;
+
     }
 
-    .menuListContainer {
-        gap: 15px;
-        padding: 1.5% 0px;
-        font-size: 26px;
+    .botao {
+        color: black;
+        padding: 10px;
+        font-family: "Luckiest Guy", cursive;
+
     }
 
-    .menuListItems {
-        padding: 2%;
-    }
-
-    .containerBox {
-        justify-content: end;
-        align-items: end;
-    }
-
-    .presentText {
+    .laranja {
         background-color: #FC3626;
-        width: 100%;
+        padding: 15px;
+        border-radius: 5px;
+    }
+
+    .cardText p {
         text-align: center;
-        padding: 20px 0px;
-        font-size: 30px;
-    }
-
-    .rodape {
-        width: 100vw;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .btnCompra {
-        background-color: black;
-        width: 150px;
-        height: 40px;
-        padding: 9px 5px;
-        margin: 20px;
-        border-radius: 10px;
+        font-size: larger;
 
     }
 
-    .btnCompra a {
-        text-decoration: none;
-        font-size: smaller;
-
+    .textPassport p {
+        padding: 3px 0;
+        text-align: center;
     }
 
-    a:hover {
-        background-color: rgb(35, 35, 35);
-        border: none;
 
+    .cardText h1 {
+        text-align: center;
+        margin: 100px 0;
+        color: #FC3626;
     }
 }
