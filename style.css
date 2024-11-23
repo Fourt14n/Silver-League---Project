@@ -448,3 +448,932 @@ header{
     }
 }
 
+/* ------------------------------------------------------------------------------------------ */
+/* Começando meu CSS*/
+
+.backTicket{
+    
+    grid-area: main;
+    background-color: #2C2A2B;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.borderTicket{
+    display: flex;
+    justify-content: center;    
+    flex-wrap: wrap;
+    width: 70%;
+    padding: 1%;
+    
+}
+
+.ticket{
+    width: 100%;
+    
+}
+
+.date{
+
+    background-color: #FC3626;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: black;
+    padding-left: 10px;
+    font-family: "Luckiest Guy", cursive;
+    font-style: normal;
+}
+
+.cardText{
+    display: flex;
+    align-items: center;
+    padding:  20px 10px;
+    background-color: white;
+    margin-bottom: 2%;
+    
+}
+
+.hour{
+    color: black;
+    font-family: "Luckiest Guy", cursive;
+    font-style: normal;
+    text-align: center;
+    
+}
+
+.info{
+    color: black;
+    font-family: "Luckiest Guy", cursive;
+    font-style: normal;
+
+}
+
+.a{
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    
+}
+
+.b{
+    padding-left: 15%;
+    width: 100%;
+    border-left: solid 2px black;
+}
+
+/* -------------------------------------------------------------------------- 
+/* Começando meu css mobile*/
+
+@media screen and (min-width:320px) and (max-width:480px) {
+
+    .backTicket{
+    
+        grid-area: main;
+        background-color: #2C2A2B;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .borderTicket{
+        display: flex;
+        justify-content: center;    
+        flex-wrap: wrap;
+        width: 85%;
+        padding: 5%;
+        
+    }
+    
+    .ticket{
+        width: 100%;
+        
+    }
+    
+    .date{
+    
+        background-color: #FC3626;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        color: black;
+        padding-left: 10px;
+        font-family: "Luckiest Guy", cursive;
+        font-style: normal;
+        
+    }
+    
+    .cardText{
+        display: flex;
+        align-items: center;
+        padding:  20px 11px;
+        background-color: white;
+        height: 65%;
+        
+    }
+    
+    .hour{
+        color: black;
+        font-family: "Luckiest Guy", cursive;
+        font-style: normal;
+        text-align: center;
+        
+    }
+    
+    .info{
+        color: black;
+        font-family: "Luckiest Guy", cursive;
+        font-style: normal;
+        font-size: 85%;
+    
+    }
+    
+    .a{
+        display: flex;
+        width: 30%;
+        justify-content: center;
+        
+    }
+    
+    .b{
+        padding-left: 15%;
+        width: 100%;
+        border-left: solid 2px black;
+    }
+    
+}
+
+@media screen and (min-width:481px) and (max-width:580px) {
+    .backTicket{
+    
+        grid-area: main;
+        background-color: #2C2A2B;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .borderTicket{
+        display: flex;
+        justify-content: center;    
+        flex-wrap: wrap;
+        width: 85%;
+        padding: 5%;
+        
+    }
+    
+    .ticket{
+        width: 100%;
+        
+    }
+    
+    .date{
+    
+        background-color: #FC3626;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        color: black;
+        padding-left: 10px;
+        font-family: "Luckiest Guy", cursive;
+        font-style: normal;
+        
+    }
+    
+    .cardText{
+        display: flex;
+        align-items: center;
+        padding:  20px 11px;
+        background-color: white;
+        height: 65%;
+        
+    }
+    
+    .hour{
+        color: black;
+        font-family: "Luckiest Guy", cursive;
+        font-style: normal;
+        text-align: center;
+        
+    }
+    
+    .info{
+        color: black;
+        font-family: "Luckiest Guy", cursive;
+        font-style: normal;
+        font-size: 85%;
+    
+    }
+    
+    .a{
+        display: flex;
+        width: 30%;
+        justify-content: center;
+        
+    }
+    
+    .b{
+        padding-left: 15%;
+        width: 100%;
+        border-left: solid 2px black;
+    }
+}
+
+@media screen and (min-width:581px) and (max-width:1024px){
+
+    .backTicket{
+    
+        grid-area: main;
+        background-color: #2C2A2B;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .borderTicket{
+        display: flex;
+        justify-content: center;    
+        flex-wrap: wrap;
+        width: 85%;
+        padding: 5%;
+        
+    }
+    
+    .ticket{
+        width: 100%;
+        
+    }
+    
+    .date{
+    
+        background-color: #FC3626;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        color: black;
+        padding-left: 10px;
+        font-family: "Luckiest Guy", cursive;
+        font-style: normal;
+        font-size: 25px;
+        
+    }
+    
+    .cardText{
+        display: flex;
+        align-items: center;
+        padding:  20% 11px;
+        background-color: white;
+        height: 40%;
+        
+    }
+    
+    .hour{
+        color: black;
+        font-family: "Luckiest Guy", cursive;
+        font-style: normal;
+        text-align: center;
+        font-size: 25px;
+        margin-right: 10px;
+        
+    }
+    
+    .info{
+        color: black;
+        font-family: "Luckiest Guy", cursive;
+        font-style: normal;
+        font-size: 25px;
+    
+    }
+    
+    .a{
+        display: flex;
+        width: 30%;
+        justify-content: center;
+        
+    }
+    
+    .b{
+        padding-left: 15%;
+        width: 100%;
+        border-left: solid 2px black;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1300px){
+
+    .backTicket{
+    
+        grid-area: main;
+        background-color: #2C2A2B;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .borderTicket{
+        display: flex;
+        justify-content: center;    
+        flex-wrap: wrap;
+        width: 85%;
+        padding: 5%;
+        
+    }
+    
+    .ticket{
+        width: 100%;
+        
+    }
+    
+    .date{
+    
+        background-color: #FC3626;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        color: black;
+        padding-left: 10px;
+        font-family: "Luckiest Guy", cursive;
+        font-style: normal;
+        font-size: 40px;
+        
+    }
+    
+    .cardText{
+        display: flex;
+        align-items: center;
+        padding:  20% 11px;
+        background-color: white;
+        height: 40%;
+        
+    }
+    
+    .hour{
+        color: black;
+        font-family: "Luckiest Guy", cursive;
+        font-style: normal;
+        text-align: center;
+        font-size: 25px;
+        margin-right: 10px;
+        font-size: 40px;
+    }
+    
+    .info{
+        color: black;
+        font-family: "Luckiest Guy", cursive;
+        font-style: normal;
+        font-size: 40px;
+    
+    }
+    
+    .a{
+        display: flex;
+        width: 30%;
+        justify-content: center;
+        
+    }
+    
+    .b{
+        padding-left: 15%;
+        width: 100%;
+        border-left: solid 2px black;
+    }
+}
+
+@media screen and (min-width:1301px){
+    .backTicket{
+    
+        grid-area: main;
+        background-color: #2C2A2B;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .borderTicket{
+        display: flex;
+        justify-content: center;    
+        flex-wrap: wrap;
+        width: 85%;
+        padding: 5%;
+        
+    }
+    
+    .ticket{
+        width: 100%;
+        
+    }
+    
+    .date{
+    
+        background-color: #FC3626;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        color: black;
+        padding-left: 10px;
+        font-family: "Luckiest Guy", cursive;
+        font-style: normal;
+        font-size: 40px;
+        
+    }
+    
+    .cardText{
+        display: flex;
+        align-items: center;
+        padding:  20% 11px;
+        background-color: white;
+        height: 40%;
+        
+    }
+    
+    .hour{
+        color: black;
+        font-family: "Luckiest Guy", cursive;
+        font-style: normal;
+        text-align: center;
+        font-size: 25px;
+        margin-right: 10px;
+        font-size: 40px;
+    }
+    
+    .info{
+        color: black;
+        font-family: "Luckiest Guy", cursive;
+        font-style: normal;
+        font-size: 40px;
+    
+    }
+    
+    .a{
+        display: flex;
+        width: 30%;
+        justify-content: center;
+        
+    }
+    
+    .b{
+        padding-left: 15%;
+        width: 100%;
+        border-left: solid 2px black;
+    }
+}
+
+/* ------------------------------------------------------------------------------------------ */
+/* Começando meu CSS*/
+
+.backTicket{
+    
+    grid-area: main;
+    background-color: #2C2A2B;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.borderTicket{
+    display: flex;
+    justify-content: center;    
+    flex-wrap: wrap;
+    width: 70%;
+    padding: 1%;
+    
+}
+
+.ticket{
+    width: 100%;
+    
+}
+
+.date{
+
+    background-color: #FC3626;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: black;
+    padding-left: 10px;
+    font-family: "Luckiest Guy", cursive;
+    font-style: normal;
+}
+
+.cardText{
+    display: flex;
+    align-items: center;
+    padding:  20px 10px;
+    background-color: white;
+    margin-bottom: 2%;
+    
+}
+
+.hour{
+    color: black;
+    font-family: "Luckiest Guy", cursive;
+    font-style: normal;
+    text-align: center;
+    
+}
+
+.info{
+    color: black;
+    font-family: "Luckiest Guy", cursive;
+    font-style: normal;
+
+}
+
+.a{
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    
+}
+
+.b{
+    padding-left: 15%;
+    width: 100%;
+    border-left: solid 2px black;
+}
+
+/* -------------------------------------------------------------------------- 
+/* Começando meu css mobile*/
+
+@media screen and (min-width:320px) and (max-width:480px) {
+
+    .backTicket{
+    
+        grid-area: main;
+        background-color: #2C2A2B;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .borderTicket{
+        display: flex;
+        justify-content: center;    
+        flex-wrap: wrap;
+        width: 85%;
+        padding: 5%;
+        
+    }
+    
+    .ticket{
+        width: 100%;
+        
+    }
+    
+    .date{
+    
+        background-color: #FC3626;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        color: black;
+        padding-left: 10px;
+        font-family: "Luckiest Guy", cursive;
+        font-style: normal;
+        
+    }
+    
+    .cardText{
+        display: flex;
+        align-items: center;
+        padding:  20px 11px;
+        background-color: white;
+        height: 65%;
+        
+    }
+    
+    .hour{
+        color: black;
+        font-family: "Luckiest Guy", cursive;
+        font-style: normal;
+        text-align: center;
+        
+    }
+    
+    .info{
+        color: black;
+        font-family: "Luckiest Guy", cursive;
+        font-style: normal;
+        font-size: 85%;
+    
+    }
+    
+    .a{
+        display: flex;
+        width: 30%;
+        justify-content: center;
+        
+    }
+    
+    .b{
+        padding-left: 15%;
+        width: 100%;
+        border-left: solid 2px black;
+    }
+    
+}
+
+@media screen and (min-width:481px) and (max-width:580px) {
+    .backTicket{
+    
+        grid-area: main;
+        background-color: #2C2A2B;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .borderTicket{
+        display: flex;
+        justify-content: center;    
+        flex-wrap: wrap;
+        width: 85%;
+        padding: 5%;
+        
+    }
+    
+    .ticket{
+        width: 100%;
+        
+    }
+    
+    .date{
+    
+        background-color: #FC3626;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        color: black;
+        padding-left: 10px;
+        font-family: "Luckiest Guy", cursive;
+        font-style: normal;
+        
+    }
+    
+    .cardText{
+        display: flex;
+        align-items: center;
+        padding:  20px 11px;
+        background-color: white;
+        height: 65%;
+        
+    }
+    
+    .hour{
+        color: black;
+        font-family: "Luckiest Guy", cursive;
+        font-style: normal;
+        text-align: center;
+        
+    }
+    
+    .info{
+        color: black;
+        font-family: "Luckiest Guy", cursive;
+        font-style: normal;
+        font-size: 85%;
+    
+    }
+    
+    .a{
+        display: flex;
+        width: 30%;
+        justify-content: center;
+        
+    }
+    
+    .b{
+        padding-left: 15%;
+        width: 100%;
+        border-left: solid 2px black;
+    }
+}
+
+@media screen and (min-width:581px) and (max-width:1024px){
+
+    .backTicket{
+    
+        grid-area: main;
+        background-color: #2C2A2B;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .borderTicket{
+        display: flex;
+        justify-content: center;    
+        flex-wrap: wrap;
+        width: 85%;
+        padding: 5%;
+        
+    }
+    
+    .ticket{
+        width: 100%;
+        
+    }
+    
+    .date{
+    
+        background-color: #FC3626;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        color: black;
+        padding-left: 10px;
+        font-family: "Luckiest Guy", cursive;
+        font-style: normal;
+        font-size: 25px;
+        
+    }
+    
+    .cardText{
+        display: flex;
+        align-items: center;
+        padding:  20% 11px;
+        background-color: white;
+        height: 40%;
+        
+    }
+    
+    .hour{
+        color: black;
+        font-family: "Luckiest Guy", cursive;
+        font-style: normal;
+        text-align: center;
+        font-size: 25px;
+        margin-right: 10px;
+        
+    }
+    
+    .info{
+        color: black;
+        font-family: "Luckiest Guy", cursive;
+        font-style: normal;
+        font-size: 25px;
+    
+    }
+    
+    .a{
+        display: flex;
+        width: 30%;
+        justify-content: center;
+        
+    }
+    
+    .b{
+        padding-left: 15%;
+        width: 100%;
+        border-left: solid 2px black;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1300px){
+
+    .backTicket{
+    
+        grid-area: main;
+        background-color: #2C2A2B;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .borderTicket{
+        display: flex;
+        justify-content: center;    
+        flex-wrap: wrap;
+        width: 85%;
+        padding: 5%;
+        
+    }
+    
+    .ticket{
+        width: 100%;
+        height: 20%;
+    }
+    
+    .date{
+    
+        background-color: #FC3626;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        color: black;
+        padding-left: 10px;
+        font-family: "Luckiest Guy", cursive;
+        font-style: normal;
+        font-size: 30px;
+        
+    }
+    
+    .cardText{
+        display: flex;
+        align-items: center;
+        padding:  3% 5%;
+        background-color: white;
+        height: 100%;
+        
+    }
+    
+    .hour{
+        color: black;
+        font-family: "Luckiest Guy", cursive;
+        font-style: normal;
+        text-align: center;
+        font-size: 25px;
+        margin-right: 10px;
+        font-size: 30px;
+    }
+    
+    .info{
+        color: black;
+        font-family: "Luckiest Guy", cursive;
+        font-style: normal;
+        font-size: 30px;
+    
+    }
+    
+    .a{
+        display: flex;
+        width: 30%;
+        justify-content: center;
+        
+    }
+    
+    .b{
+        padding-left: 15%;
+        width: 100%;
+        border-left: solid 2px black;
+    }
+}
+
+@media screen and (min-width:1301px){
+    .backTicket{
+    
+        grid-area: main;
+        background-color: #2C2A2B;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .borderTicket{
+        display: flex;
+        justify-content: center;    
+        flex-wrap: wrap;
+        width: 85%;
+        padding: 5%;
+        
+    }
+    
+    .ticket{
+        width: 100%;
+
+    }
+    
+    .date{
+    
+        background-color: #FC3626;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        color: black;
+        padding-left: 10px;
+        font-family: "Luckiest Guy", cursive;
+        font-style: normal;
+        font-size: 40px;
+        
+    }
+    
+    .cardText{
+        display: flex;
+        align-items: center;
+        padding:  20% 11px;
+        background-color: white;
+        height: 100%;
+        
+    }
+    
+    .hour{
+        color: black;
+        font-family: "Luckiest Guy", cursive;
+        font-style: normal;
+        text-align: center;
+        font-size: 25px;
+        margin-right: 10px;
+        font-size: 40px;
+    }
+    
+    .info{
+        color: black;
+        font-family: "Luckiest Guy", cursive;
+        font-style: normal;
+        font-size: 40px;
+    
+    }
+    
+    .a{
+        display: flex;
+        width: 30%;
+        justify-content: center;
+        
+    }
+    
+    .b{
+        padding-left: 15%;
+        width: 100%;
+        border-left: solid 2px black;
+    }
+}
