@@ -6,7 +6,9 @@
     box-sizing: border-box;
     color: white;
     transition: all 0.5s ease;
+    text-decoration: none;
 }
+
 
 .btnCursor {
     cursor: pointer;
@@ -22,6 +24,7 @@
         "main";
     grid-template-rows: 3fr 1fr 9fr;
     grid-template-columns: 100vw;
+    overflow-x: hidden;
 }
 
 .luckiest-guy-regular {
@@ -444,15 +447,16 @@ header {
         justify-content: space-evenly;
         align-items: center;
         font-family: "Luckiest Guy", cursive;
-
+        
     }
 
     .card {
         background-color: black;
-        height: 290px;
+        height: 300px;
         width: 200px;
         border-radius: 5px;
-        margin: 3% 0;
+        margin-top: 3%;
+        margin-bottom: 1%;
     }
 
     .card a {
@@ -470,7 +474,7 @@ header {
 
     .laranja {
         background-color: #FC3626;
-        padding: 7%;
+        padding: 7% 0px;
         border-radius: 5px;
     }
    
