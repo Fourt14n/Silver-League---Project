@@ -26,6 +26,7 @@ a{
     "main";
     grid-template-rows: 2fr 0.5fr 9fr ;
     grid-template-columns: 100vw;
+    overflow-x: hidden;
 }
 
 .luckiest-guy-regular {
