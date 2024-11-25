@@ -1,0 +1,536 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.btnCursor {
+    cursor: pointer;
+}
+
+.holeBox {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-areas:
+        "header"
+        "presentText"
+        "main";
+    grid-template-rows: 3fr 1fr 9fr;
+    grid-template-columns: 100vw;
+}
+
+.luckiest-guy-regular {
+    font-family: "Luckiest Guy", cursive;
+    font-style: normal;
+}
+
+header {
+    height: 100%;
+    grid-area: header;
+    display: flex;
+    background-color: #2C2A2B;
+}
+
+.menuListContainer {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: end;
+    background-size: cover;
+    grid-area: main;
+}
+
+.menuListItems:hover {
+    background-color: #FC3626;
+    border-radius: 7%;
+
+}
+
+.presentText {
+    grid-area: presentText;
+
+}
+
+.logo {
+    max-width: 200px;
+}
+
+
+
+
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    .containerBox {
+        background-position: 27%;
+        height: 100%;
+    }
+
+    .logoContainer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo {
+        width: 40vw;
+    }
+
+    .menuContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    header{
+        flex-direction: column;
+    }
+    .menuListContainer{
+        gap: 2%;
+        padding: 2% 0px;
+        font-size: 70%;
+    }
+
+    .menuListItems {
+        padding: 2%;
+    }
+
+    .presentText {
+        background-color: #FC3626;
+        width: 100%;
+        text-align: center;
+        padding: 5% 0px;
+        font-size: 4.5vw;
+    }
+
+    main {
+        background-color: #2C2A2B;
+        display: flex;
+        align-items: center;
+        font-family: "Luckiest Guy", cursive;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: 1000px;
+        margin: 15px;
+        background-color: black;
+        text-align: center;
+
+    }
+
+    .cardText p {
+        font-size: large;
+        padding: 5px 0 ;
+    }
+    .cardText h1 {
+        margin: 10px 0;
+        color: #FC3626;
+    }
+    .botao {
+        color: black;
+        padding: 10px;
+        font-family: "Luckiest Guy", cursive;
+
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:580px) {
+    .containerBox {
+        background-position: 22%;
+        height: 100%;
+    }
+
+    .logoContainer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo {
+        width: 30vw;
+    }
+
+    .menuContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    header{
+        flex-direction: column;
+    }
+    .menuListContainer{
+        gap: 2%;
+        padding: 2% 0px;
+        font-size: 3vw;
+    }
+
+    .menuListItems {
+        padding: 2%;
+    }
+
+    .presentText{
+        background-color: #FC3626;
+        width: 100%;
+        text-align: center;
+        padding: 2% 0px;
+        font-size: 4.5vw;
+    }
+
+    main {
+        background-color: #2C2A2B;
+        display: flex;
+        align-items: center;
+        font-family: "Luckiest Guy", cursive;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: 1000px;
+        margin: 15px;
+        background-color: black;
+        text-align: center;
+
+    }
+
+    .cardText p {
+        font-size: x-large;
+        padding: 5px 10px;
+    }
+    .cardText h1 {
+        margin: 10px 0;
+        color: #FC3626;
+    }
+    .botao {
+        color: black;
+        padding: 10px;
+        margin: 10px 0;
+        font-family: "Luckiest Guy", cursive;
+
+    }
+
+}
+
+@media screen and (min-width:581px) and (max-width:1024px) {
+    .containerBox {
+        background-position: 22%;
+        height: 100%;
+    }
+
+    .logoContainer {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo {
+        width: 30vw;
+    }
+
+    .menuContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+    }
+
+    .menuListContainer {
+        gap: 2%;
+        padding: 2% 0px;
+        font-size: 2.3vw;
+    }
+
+    .menuListItems {
+        padding: 2%;
+    }
+
+    .presentText {
+        background-color: #FC3626;
+        width: 100%;
+        text-align: center;
+        padding: 3% 0px;
+        font-size: 4vw;
+    }
+
+    main {
+        background-color: #2C2A2B;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Luckiest Guy", cursive;
+
+    }
+
+    .card {
+        background-color: black;
+        width: 200px;
+        margin: 30px 20px;
+    }
+
+    .card a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .botao {
+        color: black;
+        padding: 10px;
+        margin: 10px 0;
+    }
+
+    .laranja {
+        background-color: #FC3626;
+        padding: 15px;
+        border-radius: 5px;
+    }
+
+    .cardText p {
+        text-align: center;
+        font-size: larger;
+
+    }
+
+    .textPassport p {
+        text-align: center;
+    }
+
+    .cardText h1 {
+        text-align: center;
+        margin: 100px 0;
+        color: #FC3626;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .logo {
+        width: 25vw;
+    }
+
+    .containerBox {
+        height: 100%;
+    }
+
+    .menuListContainer {
+        gap: 2%;
+        padding: 1.5% 0px;
+        font-size: 2.4vw;
+    }
+
+    .presentText {
+        background-color: #FC3626;
+        width: 100%;
+        text-align: center;
+        padding: 2.5% 0px;
+        font-size: 30px;
+    }
+
+  
+    main {
+        background-color: #2C2A2B;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Luckiest Guy", cursive;
+
+    }
+
+    .card {
+        background-color: black;
+        height: 350px;
+        width: 200px;
+        margin: 30px 50px;
+    }
+
+    .card a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .botao {
+        color: black;
+        padding: 10px;
+        margin: 10% 0;
+        font-family: "Luckiest Guy", cursive;
+
+    }
+
+    .laranja {
+        background-color: #FC3626;
+        padding: 15px;
+        border-radius: 5px;
+    }
+
+    .cardText p {
+        padding: 1% 0;
+        text-align: center;
+        font-size: large;
+
+    }
+
+    .textPassport p {
+        padding: 8% 0;
+        text-align: center;
+    }
+
+    .cardText h1 {
+        text-align: center;
+        color: #FC3626;
+        margin: 40% 0;
+    }
+}
+
+@media screen and (min-width:1025px) and (max-width:1300px) {
+    .containerBox {
+
+        height: 100%;
+    }
+
+    .logoContainer {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo {
+        width: 30vw;
+    }
+
+    .menuContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+    }
+
+    .menuListContainer {
+        gap: 15px;
+        padding: 1.5% 0px;
+        font-size: 26px;
+    }
+
+    .menuListItems {
+        padding: 2%;
+    }
+
+    .containerBox {
+        justify-content: end;
+        align-items: end;
+    }
+
+    .presentText {
+        background-color: #FC3626;
+        width: 100%;
+        text-align: center;
+        padding: 15px 0px;
+        font-size: 30px;
+    }
+
+    main {
+        background-color: #2C2A2B;
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+        align-items: center;
+        font-family: "Luckiest Guy", cursive;
+
+    }
+
+    .card {
+        background-color: black;
+        height: 290px;
+        width: 200px;
+        border-radius: 5px;
+        margin: 3% 0;
+    }
+
+    .card a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .botao {
+        color: black;
+        padding: 10px;
+        font-family: "Luckiest Guy", cursive;
+    }
+
+    .laranja {
+        background-color: #FC3626;
+        padding: 7%;
+        border-radius: 5px;
+    }
+   
+    .cardText p {
+        text-align: center;
+        font-size: larger;
+
+    }
+    .textPassport p {
+        padding: 3px 0;
+        text-align: center;
+
+    }
+    .cardText h1 {
+        text-align: center;
+        color: #FC3626;
+        padding: 30% 0;
+    }
+}
+
+
+@media screen and (min-width:1301px){
+    .containerBox{
+        height: 100%;
+    }
+
+    .logoContainer{
+        width: 20%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo{
+        width: 30vw;
+    }
+    .menuContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+
+    .menuListContainer{
+        gap: 15px;
+        padding: 1.5% 0px;
+        font-size: 26px;
+    }
+
+    .menuListItems{
+        padding: 2%;
+    }
+    .containerBox{
+        justify-content: end;
+        align-items: end;
+    }
+    .presentText{
+        background-color: #FC3626;
+        width: 100%;
+        text-align: center;
+        padding: 20px 0px;
+        font-size: 30px;
+    }
+}
