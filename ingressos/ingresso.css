@@ -66,8 +66,8 @@ header {
 
 }
 
-.logo {
-    max-width: 200px;
+.logo{
+    max-width: 90px;
 }
 
 
@@ -85,7 +85,8 @@ header {
         justify-content: center;
     }
 
-    .logo {
+    .logo{
+        max-width: 60px;
         width: 40vw;
     }
 
@@ -111,8 +112,8 @@ header {
         background-color: #FC3626;
         width: 100%;
         text-align: center;
-        padding: 5% 0px;
-        font-size: 4.5vw;
+        padding: 3% 0px;
+        font-size: 4vw;
     }
 
     main {
@@ -158,8 +159,8 @@ header {
         justify-content: center;
     }
 
-    .logo {
-        width: 30vw;
+    .logo{
+        max-height: 80px;
     }
 
     .menuContainer {
@@ -184,8 +185,8 @@ header {
         background-color: #FC3626;
         width: 100%;
         text-align: center;
-        padding: 2% 0px;
-        font-size: 4.5vw;
+        padding: 1.5% 0px;
+        font-size: 3.2vw;
     }
 
     main {
@@ -234,8 +235,8 @@ header {
         justify-content: center;
     }
 
-    .logo {
-        width: 30vw;
+    .logo{
+        max-width: 90px;
     }
 
     .menuContainer {
@@ -260,7 +261,7 @@ header {
         width: 100%;
         text-align: center;
         padding: 3% 0px;
-        font-size: 4vw;
+        font-size: 3vw;
     }
 
     main {
@@ -333,8 +334,8 @@ header {
         background-color: #FC3626;
         width: 100%;
         text-align: center;
-        padding: 2.5% 0px;
-        font-size: 30px;
+        padding: 2% 0px;
+        font-size: 20px;
     }
 
   
@@ -404,10 +405,12 @@ header {
         width: 30%;
         display: flex;
         justify-content: center;
+        padding: 10px;
+
     }
 
-    .logo {
-        width: 30vw;
+    .logo{
+        max-width: 100px ;
     }
 
     .menuContainer {
@@ -437,7 +440,7 @@ header {
         width: 100%;
         text-align: center;
         padding: 15px 0px;
-        font-size: 30px;
+        font-size: 25px;
     }
 
     main {
