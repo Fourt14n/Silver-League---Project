@@ -460,9 +460,10 @@ header{
     padding: 20px;
     margin-bottom: 20px;
     flex-direction: column;
-    height: 60%;
+    height: 85%;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+    padding: 3%;
   }
 
   .teams-column2{
@@ -473,10 +474,11 @@ header{
     padding: 20px;
     margin-bottom: 20px;
     flex-direction: column;
-    height: 60%;
+    height: 85%;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
     border-left: 3px solid #2C2A2B;
+    padding: 3%;
 
   }
 
@@ -496,8 +498,13 @@ header{
     display: flex;
     justify-content:center;
     align-items: center;
-    background-color: #2C2A2B;
+  }
 
+  .back{
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+    background-color: #2C2A2B;
   }
 .a1{
     height: 19%;
@@ -511,6 +518,10 @@ header{
 }
 .a3{
     display: flex;
+    justify-content: left;
+}
+.a4{
+    display: flex;
     justify-content: right;
 }
 
@@ -519,12 +530,449 @@ header{
     width: 100vw;
     display: flex;
     align-items: center;
-    height: 5vh;
+    height: 6.4vh;
     justify-content: center;
    font-size: 170%;
 }
+
+
+   @media screen and (min-width:320px) and (max-width:480px) {
+    .teams-column {
+        display: flex;
+        justify-content: space-around;
+        background-color: white;
+        color: black;
+        padding: 20px;
+        margin-bottom: 20px;
+        flex-direction: column;
+        height: 70%;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+      }
+    
+      .teams-column2{
+        display: flex;
+        justify-content: space-around;
+        background-color: white;
+        color: black;
+        padding: 20px;
+        margin-bottom: 20px;
+        flex-direction: column;
+        height: 70%;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-left: 3px solid #2C2A2B;
+    
+      }
+    
+    
+      .cntainerBox{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 100%;    
+        flex-direction: column;
+    
+      }
+      .popo{
+        width: 85%;
+        height: 100%;
+    
+      }
+      .back{
+        width: 100%;
+        height: 100%;
+        background-color: #2C2A2B;
+        display: flex;
+        justify-content: center;
+      }
+    .a1{
+        height: 19%;
+        width: 19%;
+        margin-left: 10%;
+        height: auto;
+    }
+    .a2{
+        color: black;
+        font-size: 100%;
+    }
+    .a3{
+        display: flex;
+        justify-content: left;
+        width: 95%;
+    }
+    .a4{
+        display: flex;
+        width: 95%;
+        justify-content: right;
+    }
+    
+    .rodape1{
+        background-color: #FC3626;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        height: 6.4vh;
+        justify-content: center;
+       font-size: 120%;
+    
+
+   }
+}
+
+@media screen and (min-width:480px) and (max-width:580px) {
+    .teams-column {
+        display: flex;
+        justify-content: space-around;
+        background-color: white;
+        color: black;
+        padding: 20px;
+        margin-bottom: 20px;
+        flex-direction: column;
+        height: 70%;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+      }
+    
+      .teams-column2{
+        display: flex;
+        justify-content: space-around;
+        background-color: white;
+        color: black;
+        padding: 20px;
+        margin-bottom: 20px;
+        flex-direction: column;
+        height: 70%;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-left: 3px solid #2C2A2B;
+    
+      }
+    
+    
+      .cntainerBox{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 100%;    
+        flex-direction: column;
+    
+      }
+      .popo{
+        width: 80%;
+        height: 100%;
+    
+      }
+      .back{
+        width: 100%;
+        height: 100%;
+        background-color: #2C2A2B;
+        display: flex;
+        justify-content: center;
+      }
+    .a1{
+        height: 19%;
+        width: 19%;
+        margin-left: 10%;
+        height: auto;
+    }
+    .a2{
+        color: black;
+        font-size: 120%;
+    }
+    .a3{
+        display: flex;
+        justify-content: left;
+        width: 90%;
+    }
+    .a4{
+        display: flex;
+        width: 90%;
+        justify-content: right;
+    }
+    
+    .rodape1{
+        background-color: #FC3626;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        height: 6.4vh;
+        justify-content: center;
+       font-size: 120%;
+    
+
+   }
+}
+
+@media screen and (min-width:581px) and (max-width:1024px) {
+    .teams-column {
+        display: flex;
+        justify-content: space-around;
+        background-color: white;
+        color: black;
+        padding: 20px;
+        margin-bottom: 20px;
+        flex-direction: column;
+        height: 80%;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+      }
+    
+      .teams-column2{
+        display: flex;
+        justify-content: space-around;
+        background-color: white;
+        color: black;
+        padding: 20px;
+        margin-bottom: 20px;
+        flex-direction: column;
+        height: 80%;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-left: 3px solid #2C2A2B;
+    
+      }
+    
+    
+      .cntainerBox{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 100%;    
+        flex-direction: column;
+    
+      }
+      .popo{
+        width: 85%;
+        height: 100%;
+    
+      }
+      .back{
+        width: 100%;
+        height: 100%;
+        background-color: #2C2A2B;
+        display: flex;
+        justify-content: center;
+      }
+    .a1{
+        height: 19%;
+        width: 19%;
+        margin-left: 10%;
+        height: auto;
+    }
+    .a2{
+        color: black;
+        font-size: 150%;
+    }
+    .a3{
+        display: flex;
+        justify-content: left;
+        width: 95%;
+    }
+    .a4{
+        display: flex;
+        width: 95%;
+        justify-content: right;
+    }
+    
+    .rodape1{
+        background-color: #FC3626;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        height: 6.4vh;
+        justify-content: center;
+       font-size: 120%;
+    
+
+   }
+}
+
+@media screen and (min-width:1024px) and (max-width:1300px) {
+    .teams-column {
+        display: flex;
+        justify-content: space-around;
+        background-color: white;
+        color: black;
+        padding: 20px;
+        margin-bottom: 20px;
+        flex-direction: column;
+        height: 110%;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        width: 37%;
+        padding: 3%;
+
+
+      }
+    
+      .teams-column2{
+        display: flex;
+        justify-content: space-around;
+        background-color: white;
+        color: black;
+        padding: 20px;
+        margin-bottom: 20px;
+        flex-direction: column;
+        height: 110%;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-left: 3px solid #2C2A2B;
+        width: 37%;
+        padding: 3%;
+    
+      }
+    
+    
+      .cntainerBox{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 100%;    
+        flex-direction: column;
+    
+      }
+      .popo{
+        padding: 4%;
+        width: 100%;
+        height: 100%;
+    
+      }
+      .back{
+        width: 100%;
+        height: 100%;
+        background-color: #2C2A2B;
+        display: flex;
+        justify-content: center;
+      }
+    .a1{
+        height: 19%;
+        width: 19%;
+        margin-left: 10%;
+        height: auto;
+    }
+    .a2{
+        color: black;
+        font-size: 220%;
+    }
+    .a3{
+        display: flex;
+        justify-content: left;
+        width: 95%;
+    }
+    .a4{
+        display: flex;
+        width: 95%;
+        justify-content: right;
+    }
+    
+    .rodape1{
+        background-color: #FC3626;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        height: 6.4vh;
+        justify-content: center;
+       font-size: 150%;
+    
+
+   }
+}
+
+@media screen and (min-width:1301px)  {
+    .teams-column {
+        display: flex;
+        justify-content: space-around;
+        background-color: white;
+        color: black;
+        padding: 20px;
+        margin-bottom: 20px;
+        flex-direction: column;
+        height: 80%;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+        width: 37%;
+
+      }
+    
+      .teams-column2{
+        display: flex;
+        justify-content: space-around;
+        background-color: white;
+        color: black;
+        padding: 20px;
+        margin-bottom: 20px;
+        flex-direction: column;
+        height: 80%;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        border-left: 3px solid #2C2A2B;
+        width: 37%;
+    
+      }
+    
+    
+      .cntainerBox{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 100%;    
+        flex-direction: column;
+    
+      }
+      .popo{
+        width: 90%;
+        height: 100%;
+    
+      }
+      .back{
+        width: 100%;
+        height: 100%;
+        background-color: #2C2A2B;
+        display: flex;
+        justify-content: center;
+      }
+    .a1{
+        height: 19%;
+        width: 19%;
+        margin-left: 10%;
+        height: auto;
+    }
+    .a2{
+        color: black;
+        font-size: 270%;
+    }
+    .a3{
+        display: flex;
+        justify-content: left;
+        width: 85%;
+    }
+    .a4{
+        display: flex;
+        width: 85%;
+        justify-content: right;
+    }
+    
+    .rodape1{
+        background-color: #FC3626;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        height: 6.4vh;
+        justify-content: center;
+       font-size: 200%;
+    
+
+   }
+}
+
 /* ------------------------------------------------------------------------------------------ */
-/* Começando meu CSS*/
+/* Começando CSS tela-programação*/
 
 .backTicket{
     
@@ -598,7 +1046,7 @@ header{
 }
 
 /* -------------------------------------------------------------------------- 
-/* Começando meu css mobile*/
+/* Começando CSS mobile tela-programação*/
 
 @media screen and (min-width:320px) and (max-width:480px) {
 
