@@ -55,7 +55,7 @@ header{
     align-items: end;
     background-size: cover;
     width: 100vw;
-    background-image: url(./media/background.png);
+    background-image: url(/tela_home/media/background.png);
     grid-area: main;
 }
 
