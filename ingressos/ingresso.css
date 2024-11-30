@@ -539,4 +539,57 @@ header {
         padding: 20px 0px;
         font-size: 30px;
     }
+
+    main {
+        background-color: #2C2A2B;
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+        align-items: center;
+        font-family: "Luckiest Guy", cursive;
+
+    }
+
+    .card {
+        background-color: black;
+        height: 290px;
+        width: 200px;
+        border-radius: 5px;
+        margin: 3% 0;
+    }
+
+    .card a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .botao {
+        color: black;
+        padding: 10px;
+        font-family: "Luckiest Guy", cursive;
+    }
+
+    .laranja {
+        background-color: #FC3626;
+        padding: 7%;
+        border-radius: 5px;
+    }
+   
+    .cardText p {
+        text-align: center;
+        font-size: larger;
+
+    }
+    .textPassport p {
+        padding: 3px 0;
+        text-align: center;
+
+    }
+    .cardText h1 {
+        text-align: center;
+        color: #FC3626;
+        padding: 30% 0;
+    }
 }
