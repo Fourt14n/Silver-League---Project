@@ -444,11 +444,49 @@ header{
         width: 60%;
     }
 }
-@media screen and (min-width:1301px){
+@media screen and (min-width:1301px) and (max-width: 1440px){
     .patrocinadorCard{
         padding: 15px;
     }
+
+    .patrocinadoresContainer{
+        width: 50%;
+    }
+
+    .patrocinadores{
+        width: 174px;
+        height: 99px;
+    }
 }
+@media screen and (min-width:1441px) and (max-width: 1680px){
+    .patrocinadorCard{
+        padding: 15px;
+    }
+
+    .patrocinadoresContainer{
+        width: 50%;
+    }
+
+    .patrocinadores{
+        width: 184px;
+        height: 109px;
+    }
+}
+
+@media screen and (min-width:1681px) and (max-width: 1920px){
+    .patrocinadorCard{
+        padding: 15px;
+    }
+
+    .patrocinadoresContainer{
+        width: 40%;    }
+
+    .patrocinadores{
+        width: 194px;
+        height: 129px;
+    }
+}
+
 /* ------------------------------------------------------------------------------------------------------------ */
 /* Aqui e a tela de times */
 
