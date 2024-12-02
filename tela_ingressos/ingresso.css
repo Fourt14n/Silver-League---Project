@@ -10,7 +10,7 @@
     /* ;) */
 }
 
-.btnCursor {
+button {
     cursor: pointer;
 }
 
@@ -66,7 +66,7 @@ header {
 
 }
 
-.logo{
+.logo {
     max-width: 90px;
 }
 
@@ -85,7 +85,7 @@ header {
         justify-content: center;
     }
 
-    .logo{
+    .logo {
         max-width: 60px;
         width: 40vw;
     }
@@ -95,10 +95,12 @@ header {
         justify-content: center;
         align-items: center;
     }
-    header{
+
+    header {
         flex-direction: column;
     }
-    .menuListContainer{
+
+    .menuListContainer {
         gap: 2%;
         padding: 2% 0px;
         font-size: 70%;
@@ -134,12 +136,14 @@ header {
 
     .cardText p {
         font-size: large;
-        padding: 5px 0 ;
+        padding: 5px 0;
     }
+
     .cardText h1 {
         margin: 10px 0;
         color: #FC3626;
     }
+
     .botao {
         color: black;
         padding: 10px;
@@ -159,7 +163,7 @@ header {
         justify-content: center;
     }
 
-    .logo{
+    .logo {
         max-height: 80px;
     }
 
@@ -168,10 +172,12 @@ header {
         justify-content: center;
         align-items: center;
     }
-    header{
+
+    header {
         flex-direction: column;
     }
-    .menuListContainer{
+
+    .menuListContainer {
         gap: 2%;
         padding: 2% 0px;
         font-size: 3vw;
@@ -181,7 +187,7 @@ header {
         padding: 2%;
     }
 
-    .presentText{
+    .presentText {
         background-color: #FC3626;
         width: 100%;
         text-align: center;
@@ -209,10 +215,12 @@ header {
         font-size: x-large;
         padding: 5px 10px;
     }
+
     .cardText h1 {
         margin: 10px 0;
         color: #FC3626;
     }
+
     .botao {
         color: black;
         padding: 10px;
@@ -235,7 +243,7 @@ header {
         justify-content: center;
     }
 
-    .logo{
+    .logo {
         max-width: 90px;
     }
 
@@ -338,7 +346,7 @@ header {
         font-size: 20px;
     }
 
-  
+
     main {
         background-color: #2C2A2B;
         display: flex;
@@ -351,7 +359,7 @@ header {
     .card {
         background-color: black;
         height: 350px;
-        width: 200px;
+        width: 190px;
         margin: 30px 50px;
     }
 
@@ -384,7 +392,7 @@ header {
     }
 
     .textPassport p {
-        padding: 8% 0;
+        padding: 6.8% 0;
         text-align: center;
     }
 
@@ -409,8 +417,8 @@ header {
 
     }
 
-    .logo{
-        max-width: 100px ;
+    .logo {
+        max-width: 100px;
     }
 
     .menuContainer {
@@ -479,17 +487,18 @@ header {
         padding: 7%;
         border-radius: 5px;
     }
-   
+
     .cardText p {
         text-align: center;
         font-size: larger;
 
     }
+
     .textPassport p {
-        padding: 3px 0;
         text-align: center;
 
     }
+
     .cardText h1 {
         text-align: center;
         color: #FC3626;
@@ -498,41 +507,46 @@ header {
 }
 
 
-@media screen and (min-width:1301px){
-    .containerBox{
+@media screen and (min-width: 1301px) and (max-width: 1440px) {
+    .containerBox {
         height: 100%;
+
     }
 
-    .logoContainer{
+    .logoContainer {
+    
         width: 20%;
         display: flex;
         justify-content: center;
     }
 
-    .logo{
+    .logo {
         width: 30vw;
     }
-    .menuContainer{
+
+    .menuContainer {
         display: flex;
         justify-content: center;
         align-items: center;
         width: 80%;
     }
 
-    .menuListContainer{
+    .menuListContainer {
         gap: 15px;
         padding: 1.5% 0px;
         font-size: 26px;
     }
 
-    .menuListItems{
+    .menuListItems {
         padding: 2%;
     }
-    .containerBox{
+
+    .containerBox {
         justify-content: end;
         align-items: end;
     }
-    .presentText{
+
+    .presentText {
         background-color: #FC3626;
         width: 100%;
         text-align: center;
@@ -552,8 +566,8 @@ header {
 
     .card {
         background-color: black;
-        height: 290px;
-        width: 200px;
+        height: 350px;
+        width: 270px;
         border-radius: 5px;
         margin: 3% 0;
     }
@@ -569,6 +583,7 @@ header {
         color: black;
         padding: 10px;
         font-family: "Luckiest Guy", cursive;
+
     }
 
     .laranja {
@@ -576,17 +591,227 @@ header {
         padding: 7%;
         border-radius: 5px;
     }
-   
+
     .cardText p {
         text-align: center;
         font-size: larger;
 
     }
+
     .textPassport p {
-        padding: 3px 0;
+        padding: 4.5% 0;
         text-align: center;
 
     }
+
+    .cardText h1 {
+        text-align: center;
+        color: #FC3626;
+        padding: 30% 0;
+    }
+}
+
+@media screen and (min-width: 1441px) and (max-width: 1680px) {
+    .containerBox {
+        height: 100%;
+
+    }
+
+    .logoContainer {
+        width: 20%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo {
+        width: 30vw;
+    }
+
+    .menuContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+
+    .menuListContainer {
+        gap: 15px;
+        padding: 1.5% 0px;
+        font-size: 26px;
+    }
+
+    .menuListItems {
+        padding: 2%;
+    }
+
+    .containerBox {
+        justify-content: end;
+        align-items: end;
+    }
+
+    .presentText {
+        background-color: #FC3626;
+        width: 100%;
+        text-align: center;
+        padding: 20px 0px;
+        font-size: 30px;
+    }
+
+    main {
+        background-color: #2C2A2B;
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+        align-items: center;
+        font-family: "Luckiest Guy", cursive;
+
+    }
+
+    .card {
+        background-color: black;
+        height: 360px;
+        width: 290px;
+        border-radius: 5px;
+        margin: 3% 0;
+    }
+
+    .card a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .botao {
+        color: black;
+        padding: 10px;
+        font-family: "Luckiest Guy", cursive;
+
+    }
+
+    .laranja {
+        background-color: #FC3626;
+        padding: 7%;
+        border-radius: 5px;
+    }
+
+    .cardText p {
+        text-align: center;
+        font-size: larger;
+
+    }
+
+    .textPassport p {
+        padding: 4.5% 0;
+        text-align: center;
+
+    }
+
+    .cardText h1 {
+        text-align: center;
+        color: #FC3626;
+        padding: 30% 0;
+    }
+
+}
+
+@media screen and (min-width: 1681px) and (max-width: 1920px) {
+
+    .containerBox {
+        height: 100%;
+
+    }
+
+    .logoContainer {
+        width: 20%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo {
+        width: 30vw;
+    }
+
+    .menuContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+
+    .menuListContainer {
+        gap: 15px;
+        padding: 1.5% 0px;
+        font-size: 26px;
+    }
+
+    .menuListItems {
+        padding: 2%;
+    }
+
+    .containerBox {
+        justify-content: end;
+        align-items: end;
+    }
+
+    .presentText {
+        background-color: #FC3626;
+        width: 100%;
+        text-align: center;
+        padding: 20px 0px;
+        font-size: 30px;
+    }
+
+    main {
+        background-color: #2C2A2B;
+        display: flex;
+        justify-content: center;
+        justify-content: space-evenly;
+        align-items: center;
+        font-family: "Luckiest Guy", cursive;
+
+    }
+
+    .card {
+        background-color: black;
+        height: 360px;
+        width: 290px;
+        border-radius: 5px;
+        margin: 3% 0;
+    }
+
+    .card a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .botao {
+        color: black;
+        padding: 10px;
+        font-family: "Luckiest Guy", cursive;
+
+    }
+
+    .laranja {
+        background-color: #FC3626;
+        padding: 7%;
+        border-radius: 5px;
+    }
+
+    .cardText p {
+        text-align: center;
+        font-size: larger;
+
+    }
+
+    .textPassport p {
+        padding: 4.5% 0;
+        text-align: center;
+
+    }
+
     .cardText h1 {
         text-align: center;
         color: #FC3626;
