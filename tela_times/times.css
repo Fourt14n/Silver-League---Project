@@ -64,10 +64,12 @@
 }
 .a3{
     display: flex;
+    align-items: center;
     justify-content: left;
 }
 .a4{
     display: flex;
+    align-items: center;
     justify-content: right;
 }
 
